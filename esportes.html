@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Esportes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Esportes</h1>
+        <p>Explore nossos esportes e inscreva-se para eventos!</p>
+
+        <div class="sports-grid">
+            <div class="sport">
+                <h2>Futebol</h2>
+                <img src="https://via.placeholder.com/200x150?text=Futebol" alt="Futebol">
+                <p>Participe de torneios e jogos amistosos.</p>
+            </div>
+            <div class="sport">
+                <h2>Basquete</h2>
+                <img src="https://via.placeholder.com/200x150?text=Basquete" alt="Basquete">
+                <p>Venha competir em nossas ligas de basquete!</p>
+            </div>
+            <div class="sport">
+                <h2>Vôlei</h2>
+                <img src="https://via.placeholder.com/200x150?text=Vôlei" alt="Vôlei">
+                <p>Junte-se a equipes e participe de campeonatos.</p>
+            </div>
+            <div class="sport">
+                <h2>Natação</h2>
+                <img src="https://via.placeholder.com/200x150?text=Natação" alt="Natação">
+                <p>Treinamentos e competições para nadadores de todos os níveis.</p>
+            </div>
+        </div>
+
+        <h3>Inscreva-se em Eventos</h3>
+        <form id="eventForm">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <select required>
+                <option value="">Selecione um Esporte</option>
+                <option value="Futebol">Futebol</option>
+                <option value="Basquete">Basquete</option>
+                <option value="Vôlei">Vôlei</option>
+                <option value="Natação">Natação</option>
+            </select>
+            <button type="submit">Inscrever-se</button>
+        </form>
+        
+        <a href="main.html" class="btn">Voltar</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
